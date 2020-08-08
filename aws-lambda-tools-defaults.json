@@ -1,0 +1,15 @@
+{
+    "profile"     : "ManojNair",
+    "region"      : "ap-southeast-2",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "dotnetcore3.1",
+    "function-memory-size" : 256,
+    "function-timeout"     : 90,
+    "function-handler"     : "demoapp::demoapp.Bootstrap::ExecuteFunction",
+    "function-name"        : "",
+    "function-role"        : "arn:aws:iam::998516739712:role/LambdaAdminRole",
+    "tracing-mode"         : "",
+    "environment-variables" : "Developer=ManojNair",
+    "apply-defaults"        : true
+}
